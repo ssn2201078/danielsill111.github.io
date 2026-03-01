@@ -1,0 +1,101 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 120px;
+}
+
+/* 語言選單 */
+.lang-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #111;
+    border-bottom: 2px solid #0f0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 1000;
+}
+
+.lang-option {
+    width: 100px;
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+    color: #0f0;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.lang-option.active {
+    background: #0f0;
+    color: black;
+}
+
+/* 導覽列 */
+.navbar {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background: #222;
+    border-bottom: 2px solid #0f0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    z-index: 999;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #0f0;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 12px;
+}
+
+.navbar a:hover {
+    background: #0f0;
+    color: black;
+    border-radius: 8px;
+}
+
+/* 頂部標題 */
+#pageTitle {
+    font-size: 40px;
+    color: #ff0;
+    text-shadow: 0 0 15px #ff0, 0 0 30px #ff0;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 15px #ff0, 0 0 30px #ff0; }
+    to   { text-shadow: 0 0 30px #ff0, 0 0 60px #ff0; }
+}
+
+/* 按鈕 */
+button {
+    margin: 10px;
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #0f0, #1aff1a);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #1aff1a, #33ff33);
+    box-shadow: 0 0 10px #0f0;
+}

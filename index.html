@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Zombie Shooter - 首頁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 語言選單 -->
+<div class="lang-menu">
+    <div class="lang-option active" onclick="switchLanguage('zh')">中文</div>
+    <div class="lang-option" onclick="switchLanguage('en')">English</div>
+</div>
+
+<!-- 導覽列 -->
+<div class="navbar">
+    <a href="index.html" id="navHome">首頁</a>
+    <a href="about.html" id="navAbout">關於作者</a>
+    <a href="how-to-play.html" id="navPlay">玩法說明</a>
+</div>
+
+<!-- 頂部標題 -->
+<h1 id="pageTitle">首頁</h1>
+
+<header>
+    <h1 id="title">Zombie Shooter</h1>
+    <p id="desc">快節奏射擊遊戲，挑戰你的反應力！</p>
+
+    <div class="button-group">
+        <button class="play-btn" id="startBtn"
+                onclick="window.location.href='https://scratch.mit.edu/projects/1165124632/'">
+            開始遊戲
+        </button>
+    </div>
+</header>
+
+<footer id="footer">© 2026 Zombie Shooter | 製作者：danielsill111</footer>
+
+<script src="language.js"></script>
+</body>
+</html>
