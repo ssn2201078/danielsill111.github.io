@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <title>Zombie Shooter - 玩法說明</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Zombie Shooter - 玩法說明</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- 語言選單 -->
-<div class="lang-menu">
+  <!-- 語言選單 -->
+  <div class="lang-menu">
     <div class="lang-option active" onclick="switchLanguage('zh')">中文</div>
     <div class="lang-option" onclick="switchLanguage('en')">English</div>
-</div>
+  </div>
 
-<!-- 導覽列 -->
-<div class="navbar">
+  <!-- 導覽列 -->
+  <div class="navbar">
     <a href="index.html" id="navHome">首頁</a>
     <a href="about.html" id="navAbout">關於作者</a>
     <a href="how-to-play.html" id="navPlay">玩法說明</a>
-</div>
+  </div>
 
-<!-- 頂部標題 -->
-<h1 id="pageTitle">玩法說明</h1>
+  <!-- 頂部標題 -->
+  <h1 id="pageTitle">玩法說明</h1>
 
-<header>
+  <header>
+    <h1 id="title">玩法說明</h1>
     <p id="desc">使用滑鼠點擊射擊殭屍，避免被攻擊，盡量獲得高分！</p>
 
     <div class="button-group">
-        <button id="scratchBtn"
-                onclick="location.href='https://scratch.mit.edu/users/danielsill111/'">
-            前往我的 Scratch 個人檔案
-        </button>
+      <button id="scratchBtn"
+        onclick="location.href='https://scratch.mit.edu/users/danielsill111/'">
+        前往我的 Scratch 個人檔案
+      </button>
     </div>
-</header>
+  </header>
 
-<footer id="footer">© 2026 Zombie Shooter | 製作者：danielsill111</footer>
+  <footer id="footer">© 2026 Zombie Shooter | 製作者：danielsill111</footer>
 
-<script src="language.js"></script>
+  <!-- 語言切換程式 -->
+  <script src="language.js"></script>
 </body>
 </html>
