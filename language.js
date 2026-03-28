@@ -39,7 +39,7 @@ function switchLanguage(lang) {
         } else if (title.includes("玩法說明")) {
             document.getElementById("pageTitle").innerText = "玩法說明";
             document.getElementById("desc").innerText = "使用滑鼠點擊射擊殭屍，避免被攻擊，盡量獲得高分！";
-            document.getElementById("scratchBtn").innerText = "前往我的 Scratch 個人檔案";
+            document.getElementById("scratchBtn").innerText = "前往查看完整指南";
             document.getElementById("footer").innerText = "© 2026 Zombie Shooter | 製作者：danielsill111";
         }
     } else {
@@ -60,7 +60,7 @@ function switchLanguage(lang) {
         } else if (title.includes("玩法說明")) {
             document.getElementById("pageTitle").innerText = "How to Play";
             document.getElementById("desc").innerText = "Click with the mouse to shoot zombies, avoid attacks, and aim for a high score!";
-            document.getElementById("scratchBtn").innerText = "Visit my Scratch profile";
+            document.getElementById("scratchBtn").innerText = "Check the full guide";
             document.getElementById("footer").innerText = "© 2026 Zombie Shooter | Creator: danielsill111";
         }
     }
